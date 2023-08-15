@@ -6,7 +6,8 @@ const paths = require('./paths');
 // const TerserPlugin = require("terser-webpack-plugin");
 const pages = [
   "draft_1_0","draft_2_0","draft_3_0","draft_3_1",
-  "case_list","case_view","insight_list","insight_view",
+  "case_list","case_view","insight_list","insight_list_2","insight_view",
+  "works_list","works_view",
   "template_ui",
   "index","draft_list"
 ]

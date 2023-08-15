@@ -385,6 +385,10 @@ video {
   margin-right: -0.25rem;
 }.mb-12{
   margin-bottom: 3rem;
+}.mb-\[100px\]{
+  margin-bottom: 100px;
+}.mb-\[150px\]{
+  margin-bottom: 150px;
 }.mb-\[56px\]{
   margin-bottom: 56px;
 }.mt-10{
@@ -393,6 +397,8 @@ video {
   margin-top: 0.5rem;
 }.mt-\[150px\]{
   margin-top: 150px;
+}.mt-\[40px\]{
+  margin-top: 40px;
 }.block{
   display: block;
 }.inline-block{
