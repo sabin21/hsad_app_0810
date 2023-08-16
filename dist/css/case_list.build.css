@@ -481,8 +481,14 @@ video {
 .mb-\[150px\]{
   margin-bottom: 150px;
 }
+.mb-\[40px\]{
+  margin-bottom: 40px;
+}
 .mb-\[56px\]{
   margin-bottom: 56px;
+}
+.mb-\[80px\]{
+  margin-bottom: 80px;
 }
 .mt-10{
   margin-top: 2.5rem;
@@ -1206,6 +1212,34 @@ body{font-family:"Pretendard";-webkit-font-smoothing:antialiased;-moz-osx-font-s
 }
 .case-project-wrap>.container-wrap{
   max-width: 1680px;
+}
+.insight-title{
+  font-size: 64px;
+  font-weight: 800;
+}
+.insight-title-2{
+  position: relative;
+  display: block;
+  width: auto;
+  font-size: 24px;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+.insight-title-2>.inner{
+  position: relative;
+  display: inline-block;
+}
+.insight-title-2>.inner:after{
+  position: absolute;
+  right: -32px;
+  top: 6px;
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../../public/img/dummy/btn_insight_title_arrow.svg);
+  --tw-content: "";
+  content: var(--tw-content);
 }
 .hover\:bg-gray-50:hover{
   --tw-bg-opacity: 1;

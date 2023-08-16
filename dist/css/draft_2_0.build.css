@@ -389,8 +389,12 @@ video {
   margin-bottom: 100px;
 }.mb-\[150px\]{
   margin-bottom: 150px;
+}.mb-\[40px\]{
+  margin-bottom: 40px;
 }.mb-\[56px\]{
   margin-bottom: 56px;
+}.mb-\[80px\]{
+  margin-bottom: 80px;
 }.mt-10{
   margin-top: 2.5rem;
 }.mt-2{

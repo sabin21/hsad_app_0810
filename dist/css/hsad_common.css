@@ -246,3 +246,18 @@ body{
   }
 }
 
+//----------------
+.insight-title{
+  @apply text-[64px] font-extrabold;
+}
+.insight-title-2{
+  @apply block relative text-[24px] font-medium text-gray-500 w-auto;
+  >.inner{
+    @apply inline-block relative ;
+    &:after{
+      @apply content-[''] block absolute right-[-32px] h-[24px] w-[24px] top-[6px]
+      bg-[url(../../public/img/dummy/btn_insight_title_arrow.svg)] ;
+    }
+  }  
+}
+
